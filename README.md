@@ -20,3 +20,18 @@ npm -v
 # Clone the Repo.
 git clone https://github.com/Suresh-Chelani/News-APP.git
 cd News-APP
+
+
+# Setting Up the API Key
+You need to generate your own API key from NewsAPI and put that key in the News.js component.
+
+Steps to generate your API key:
+# Visit the NewsAPI website.
+# Sign up or log in to your account.
+# Navigate to the "Get API Key" section and generate a new API key.
+# Add the API key to your project:
+# Open the News.js component file located in the src directory.
+# Find the placeholder for the API key.
+# Replace the placeholder with your newly generated API key.
+
+let apiKey = "" # in this empty string you replace your API Key
