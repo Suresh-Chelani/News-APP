@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# News-APP
+The "NewsApp" project is built using React JS and Bootstrap, leveraging the NEWS API to fetch and display news dynamically.
+
+## Getting Started
+
+These instructions will help you set up and run the project on your local machine.
+
+### Prerequisites
+
+Make sure you have the following software installed on your system:
+
+- [Node.js](https://nodejs.org/) (which includes npm)
+
+You can check if Node.js and npm are installed by running the following commands in your terminal:
+
+```bash
+node -v
+npm -v
+
+# Clone the Repo.
+git clone https://github.com/Suresh-Chelani/News-APP.git
+cd News-APP
+
+
+# Setting Up the API Key
+You need to generate your own API key from NewsAPI and put that key in the News.js component.
+
+Steps to generate your API key:
+# Visit the NewsAPI website.
+# Sign up or log in to your account.
+# Navigate to the "Get API Key" section and generate a new API key.
+# Add the API key to your project:
+# Open the News.js component file located in the src directory.
+# Find the placeholder for the API key.
+# Replace the placeholder with your newly generated API key.
+
+let apiKey = "" # in this empty string you replace your API Key
+>>>>>>> b44990a7a4d64ebd1cf09205d65d6aa686e3ded6
